@@ -10,6 +10,7 @@
 - Environment: Miniconda
 - Packages: Pandas, Numpy, SciPy, Requests, Citipy
 - APIs: OpenWeatherMap, Google Maps and Places, Google Search Nearby
+- Further resources: [In Depth Input() Explanation](https://betterprogramming.pub/how-you-make-sure-input-is-the-type-you-want-it-to-be-in-python-521f3565a66d)
 
 ## Results
 ### Deliverable 1: Retrieve Weather Data
@@ -23,7 +24,7 @@ Used the WeatherPy_database to find a subset of cities that had maximum and mini
 ![Deliverable 2](https://github.com/li-emily/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
 ### Deliverable 3: Create a Travel Itinerary Map
-Filter WeatherPy_vacation with the beta tester's country and city preferences. Created an itinerary of four cities that looped back to the starting city. The beta tester chose the travel mode between driving, bicycling, and walking. Using Google Maps API, outputted a map with directions between all four cities, and a marker map containing basic information including local weather and hotels. Notable original code included the following, which helped check and confirm that inputted data was of the correct kind and could be properly analyzed.
+Filter WeatherPy_vacation with the beta tester's country and city preferences. Created an itinerary of four cities that looped back to the starting city. The beta tester chose the travel mode between driving, bicycling, and walking. Using Google Maps API, outputted a map with directions between all four cities, and a marker map containing basic information including local weather and hotels. Notable code included the following, which helped check and confirm that inputted data was of the correct kind and could be properly analyzed.
 
 ```
 # Create list of Japanese cities
